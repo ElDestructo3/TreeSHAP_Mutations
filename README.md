@@ -1,6 +1,10 @@
-# TreeSHAP_Mutations
+# Introduction
+
+Computational Biophysics (CS61060) Term Project: ML and Shapley-Based prediction of resistance mechanisms in pathogenic bacteria
+Group 15: Ram Sundaram (20BT10026), Vishal Ravipati (20CS10076), Giri Nikhil Rajendra (20BT10036)
 This repository contains code for a pipeline that ultimately utilises Tree-Based Interpretable ML algorithms, with said interpretability bestowed by TreeSHAP. This is done with the aim to identify and interpret antibiotic resistance mechanisms in pathogenic bacteria. 
-We return a `.csv` file that contains the mutations in order of their SHAPLey values (signifying their importance) towards antibiotic resistance. 
+We have included the code files, however the specific genomic data for which the code is designed to run is too big for the Moodle file limit, hence for testing purposes the data will have to be downloaded from this repository: https://github.com/ElDestructo3/TreeSHAP_Mutations
+Our code's output is a `.csv` file that contains the mutations in order of their SHAPLey values (signifying their importance) towards antibiotic resistance. 
 
 This repository includes data from two different datasets:
 1. The `maela` dataset, containing SNP data of *Streptococcus pneumoniae*
